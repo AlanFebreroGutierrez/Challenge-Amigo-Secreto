@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #fd4b4b;
+    --color-secondary: #f3f3f3;
+    --color-tertiary: #00ff15;
+    --color-button: #0dff00;
+    --color-button-hover: #000000;
+    --color-text: #000000;
+    --color-white: #000000;
 }
 
 /* Estilos generales */
@@ -161,7 +161,7 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-//Deshabilita el boton
+/*  Deshabilita el boton*/
 button-draw:disabled {
     background: #ccc;
     color: #888;
