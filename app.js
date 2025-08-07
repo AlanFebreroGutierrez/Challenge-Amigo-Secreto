@@ -25,10 +25,9 @@ function mostrarLista(){
     let listaNombres = document.getElementById("listaAmigos");
 //Limpia la lista previa
     listaNombres.innerHTML = "";
-
-    amigos.forEach(function(nombre){
-        let li = document.createElement("li");
-        li.textContent = nombre;
-        listaNombres.appendChild(li);
-    })
+for (let i = 0; i <amigos.length; i++) {
+    let li = document.createElement("li");
+    li.textContent = amigos[i];
+    listaNombres.appendChild(li);
+    }
 }
