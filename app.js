@@ -46,3 +46,10 @@ let nombreSorteado = amigos[indice];
 //Muestra el resultado en el elemento de id="resultado"
 document.getElementById("resultado").innerHTML = nombreSorteado;
 }
+
+//Permite ingresar nombres presionando Enter
+document.getElementById("amigo").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        agregarAmigo();
+    }
+});
