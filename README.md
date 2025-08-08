@@ -1,31 +1,74 @@
+<h1 align="center"> 🎲 Challenge Amigo Secreto 🎁</h1>
+
+<p align="center"><strong>Challenge de Lógica de Programación - Oracle Next Education & Alura Latam.</strong> </p>
+
+<p align="center"> <img src="assets/insignia.png" width="300" alt="Insignia Alura ONE"/> </p>
+
 <p align="center">
-  <img src="assets/insignia.png" width="120" alt="Insignia Alura ONE"/>
+  <strong>Desafío completado <span style="font-size:1.3em;">📅</span> 7 de agosto de 2025</strong>
 </p>
 
-# Challenge Amigo Secreto
+<p align="center">
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
+</p>
 
-Proyecto de lógica de programación realizado para el Challenge de Alura Latam - Oracle Next Education.
+<p align="center"><strong>🚀 Habilidades aplicadas en este proyecto</strong></p>
+
+<p align="center">
+  <b>
+    <span style="display:inline-block;width: 260px;">🟢 Manipulación de Arrays</span>
+    <span style="display:inline-block;width: 260px;">🟣 Lógica y condicionales</span>
+    <span style="display:inline-block;width: 260px;">🔵 Interacción con el DOM</span><br>
+    <span style="display:inline-block;width: 260px;">🟠 Validación de formularios</span>
+    <span style="display:inline-block;width: 260px;">🎲 Sorteos aleatorios</span>
+    <span style="display:inline-block;width: 260px;">🟡 Gestión de eventos</span><br>
+    <span style="display:inline-block;width: 260px;">🎨 Estilizado con CSS</span>
+    <span style="display:inline-block;width: 260px;"></span>
+    <span style="display:inline-block;width: 260px;"></span>
+  </b>
+</p>
 
 ## Descripción
 
-Proyecto web intercativo que permite ingresar nombres en una lista para luego hacer un sorteo aleatorio y de esta forma elegir a un "amigo secreto" de la lista ingresada.
+Proyecto web que permite ingresar nombres a una lista para luego hacer un sorteo aleatorio y elegir a un "amigo secreto". Evita nombres duplicados, resalta y tacha los que ya fueron sorteados y solo permite sortear cuando se hayan ingresado al menos dos nombres.
 
-- El usuario agrega nombres mediante un campo de texto y un botón “Agregar”.
-- Los nombres ingresados se muestran en una lista visible.
-- Al hacer clic en “Sortear nombre”, se elige un participante al azar y se muestra el resultado en pantalla.
-- El sistema evita nombres duplicados y muestra con tachado los nombres que ya salieron sorteados.
-- El sorteo solo es posible si hay al menos 2 participantes.
+- Agregá nombres con el botón **Agregar** o con la tecla **Enter**.
+- Visualizá los nombres en una lista.
+- Sorteá un participante y mirá el resultado destacado.
+- Repetí el sorteo hasta que no queden más nombres disponibles.
 
-## Cómo usar
 
-1. Agregá los nombres de los participantes y hace clic en "agregar" (o presiona la tecla enter).
-2. Cuando haya al menos dos nombres en la lista, se puede sortear.
-3. El resultado aparece en pantalla, resaltado y a la vez el nombre sorteado se tacha de la lista de nombres.
-4. El proceso se puede repetir hasta que no queden más nombres disponibles para sortear.
+## Demo Online
 
-## Demo Online activa
+[🚀 Accedé a la demo](https://alanfebrerogutierrez.github.io/Challenge-Amigo-Secreto/)
 
-https://alanfebrerogutierrez.github.io/Challenge-Amigo-Secreto/
+
+---
+
+
+
+
+
+
+
+---
+
+
+## Características principales
+
+- ✅ Nombres sin duplicados.
+- ✅ Sorteo sin repeticiones.
+- ✅ Visualización clara del participante sorteado.
+- ✅ Nombres tachados al ser seleccionados.
+- ✅ Permite agregar con tecla Enter.
+
+
 ## Autor
 
 Alan Febrero Gutierrez (2MDA).
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/alanfebrerogutierrez/)
+
+
+---
