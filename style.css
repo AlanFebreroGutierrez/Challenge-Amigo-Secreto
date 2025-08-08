@@ -181,17 +181,17 @@ button-draw:disabled {
 }
 .result-list {
     margin-top: 15px;
-    color: #2a0860
+    color: #000;  /* negro */
     font-size: 26px;
     font-weight: bold;
     text-align: center;
-    /* AGREGADO PARA EL FONDO */
+    /*agregado para el fondo*/
     background: #ff67cf;
     border-radius: 32px;
     padding: 18px 48px;
     display: inline-block;
     box-shadow: 0 4px 16px #e0bee6;
     margin-bottom: 28px;
-    /* Opcional: animación para cuando aparece */
+    /*Opcional animacion para cuando aparece*/
     transition: background 0.3s, box-shadow 0.3s;
 }
