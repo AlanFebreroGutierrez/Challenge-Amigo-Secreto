@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/insignia-alura.png" width="120" alt="Insignia Alura ONE"/>
+  <img src="assets/insignia.png" width="120" alt="Insignia Alura ONE"/>
 </p>
 
 # Challenge Amigo Secreto
