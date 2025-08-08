@@ -70,29 +70,15 @@ let indice = Math.floor(Math.random() * disponibles.length);
 //Obtiene el nombre sorteado
 let nombreSorteado = disponibles[indice];
 sorteados.push(nombreSorteado);
-//Muestra el resultado en el elemento de id="resultado"
-document.getElementById("resultado").innerHTML = nombreSorteado;
 
-//Actualiza la lista para tachar
-mostrarLista();{
-    let listaNombres = document.getElementById("listaAmigos");
-    listaNombres.innerHTML = "";
-    for (let i = 0; i < amigos.length; i++) {
-        let li = document.createElement("li");
-        li.textContent = amigos[i];
+// Muestra el resultado en el elemento de id="resultado" y lo hace visible
+let resultado = document.getElementById("resultado");
+resultado.innerHTML = nombreSorteado;
+resultado.style.display = "inline-block";
 
-        // Si ya fue sorteado, agregale la clase "tachado"
-        if (sorteados.includes(amigos[i])) {
-            li.classList.add("tachado");
-        }
+// Actualiza la lista para tachar
+mostrarLista();
 
-        listaNombres.appendChild(li);
-    }
-
-    // Habilita o deshabilita el botón de sorteo
-    let btnSortear = document.getElementById("btnSortear");
-    btnSortear.disabled = amigos.length < 2 || sorteados.length === amigos.length;
-}
 }
 
 //Permite ingresar nombres presionando Enter
