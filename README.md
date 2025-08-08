@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/insignia-alura.png" width="120" alt="Insignia Alura ONE"/>
+</p>
+
 # Challenge Amigo Secreto
 
 Proyecto de lógica de programación realizado para el Challenge de Alura Latam - Oracle Next Education.
