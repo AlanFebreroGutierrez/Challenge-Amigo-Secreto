@@ -1,4 +1,5 @@
 let amigos = [];
+let sorteados = [];
 
 function agregarAmigo() {
 //Captura el input del usuario.
@@ -38,26 +39,60 @@ function mostrarLista(){
 for (let i = 0; i < amigos.length; i++) {
     let li = document.createElement("li");
     li.textContent = amigos[i];
+// Si ya fue sorteado, agrega texto tachado al nombre
+if (sorteados.includes(amigos[i])) {
+    li.classList.add("tachado");
+}
     listaNombres.appendChild(li);
     }
 
 //Habilita o deshabilita el botón de sorteo según la cantidad de amigos
 let btnSortear = document.getElementById("btnSortear");
-btnSortear.disabled = amigos.length < 2;
+btnSortear.disabled = amigos.length < 2 || sorteados.length === amigos.length;
 }
 
 function sortearAmigo() {
+//Filtra los amigos que no han sido sorteados
+let disponibles = amigos.filter(nombre=>
+    !sorteados.includes(nombre)
+);
 //Valida que haya amigos para sortear
-    if (amigos.length === 0) {
-        alert("No hay amigos para sortear.");
+    if (disponibles.length === 0) {
+        alert("¡Todos los nombres ya fueron sorteados!");
+        return;
+    }
+    if (amigos.length < 2) {
+        alert("Agregá al menos dos nombres para sortear.");
         return;
     }
 //Genera un índice aleatorio válido
-let indice = Math.floor(Math.random() * amigos.length);
+let indice = Math.floor(Math.random() * disponibles.length);
 //Obtiene el nombre sorteado
-let nombreSorteado = amigos[indice];
+let nombreSorteado = disponibles[indice];
+sorteados.push(nombreSorteado);
 //Muestra el resultado en el elemento de id="resultado"
 document.getElementById("resultado").innerHTML = nombreSorteado;
+
+//Actualiza la lista para tachar
+mostrarLista();{
+    let listaNombres = document.getElementById("listaAmigos");
+    listaNombres.innerHTML = "";
+    for (let i = 0; i < amigos.length; i++) {
+        let li = document.createElement("li");
+        li.textContent = amigos[i];
+
+        // Si ya fue sorteado, agregale la clase "tachado"
+        if (sorteados.includes(amigos[i])) {
+            li.classList.add("tachado");
+        }
+
+        listaNombres.appendChild(li);
+    }
+
+    // Habilita o deshabilita el botón de sorteo
+    let btnSortear = document.getElementById("btnSortear");
+    btnSortear.disabled = amigos.length < 2 || sorteados.length === amigos.length;
+}
 }
 
 //Permite ingresar nombres presionando Enter
@@ -66,3 +101,4 @@ document.getElementById("amigo").addEventListener("keydown", function(event) {
         agregarAmigo();
     }
 });
+

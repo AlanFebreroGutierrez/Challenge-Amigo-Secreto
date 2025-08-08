@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #ff67cf;
-    --color-secondary: #f3f3f3;
+    --color-primary: #ff67cfba;
+    --color-secondary: #f0e3ec;
     --color-tertiary: #a268ff;
     --color-button: #d56cfc;
     --color-button-hover: #f7f750;
@@ -50,6 +50,11 @@ body {
     align-items: center;
     padding: 20px;
     width: 100%;
+
+    background-image: url("assets/fondo-amigo-secreto.png");
+    background-repeat: repeat;
+    background-size: 800px auto;
+    background-position: center;
 }
 
 /* Títulos */
@@ -167,4 +172,10 @@ button-draw:disabled {
     color: #888;
     cursor: not-allowed;
     opacity: 0.6;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: #000000;
+    opacity: 0.7;
 }
