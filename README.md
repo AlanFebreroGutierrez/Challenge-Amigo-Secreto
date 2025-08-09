@@ -53,7 +53,7 @@ Proyecto web que permite ingresar nombres a una lista para luego hacer un sorteo
 
 ## 🌐 Demo Online:
 
-**⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️**
+**⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️**
 
 <p align="left">
   <a href="https://alanfebrerogutierrez.github.io/Challenge-Amigo-Secreto/" target="_blank">
