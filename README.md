@@ -1,12 +1,14 @@
 <h1 align="center"> 🎲 Challenge Amigo Secreto 🎁</h1>
 
+
 <p align="center"><strong>Challenge de Lógica de Programación - Oracle Next Education & Alura Latam.</strong> </p>
 
 <p align="center"> <img src="assets/insignia.png" width="300" alt="Insignia Alura ONE"/> </p>
 
 <p align="center">
-  <strong>Desafío completado <span style="font-size:1.3em;">📅</span> 7 de agosto de 2025</strong>
+  <span style="font-size:23px;"><strong>🦾 Desafío completado 📅 7 de agosto de 2025</strong></span>
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
@@ -14,7 +16,16 @@
   <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
 </p>
 
-<p align="center"><strong>🚀 Habilidades aplicadas en este proyecto</strong></p>
+
+--- 
+<br>
+
+
+
+
+<p align="center">
+  <span style="font-size:20px;">🚀 <strong>Habilidades aplicadas en este Proyecto 📍 </strong></span>
+</p>
 
 <p align="center">
   <b>
@@ -24,51 +35,49 @@
     <span style="display:inline-block;width: 260px;">🟠 Validación de formularios</span>
     <span style="display:inline-block;width: 260px;">🎲 Sorteos aleatorios</span>
     <span style="display:inline-block;width: 260px;">🟡 Gestión de eventos</span><br>
-    <span style="display:inline-block;width: 260px;">🎨 Estilizado con CSS</span>
     <span style="display:inline-block;width: 260px;"></span>
+    <span style="display:inline-block;width: 260px;">🎨 Estilizado con CSS</span>
     <span style="display:inline-block;width: 260px;"></span>
   </b>
 </p>
 
-## Descripción
+## 📝 Descripción:
 
 Proyecto web que permite ingresar nombres a una lista para luego hacer un sorteo aleatorio y elegir a un "amigo secreto". Evita nombres duplicados, resalta y tacha los que ya fueron sorteados y solo permite sortear cuando se hayan ingresado al menos dos nombres.
 
-- Agregá nombres con el botón **Agregar** o con la tecla **Enter**.
-- Visualizá los nombres en una lista.
-- Sorteá un participante y mirá el resultado destacado.
-- Repetí el sorteo hasta que no queden más nombres disponibles.
+✍🏻 Agregá nombres (con el botón **Agregar** o con la tecla **Enter**).
+📋 Visualizá los nombres en una lista.
+🎲 Sorteá un participante y mirá el resultado destacado.
+🔁 Repetí el sorteo hasta que no queden más nombres disponibles.
 
 
-## Demo Online
+## 🌐 Demo Online:
 
-[🚀 Accedé a la demo](https://alanfebrerogutierrez.github.io/Challenge-Amigo-Secreto/)
-
-
----
-
-
-
-
-
-
+<p align="left">
+  <a href="https://alanfebrerogutierrez.github.io/Challenge-Amigo-Secreto/" target="_blank">
+    <img src="https://img.shields.io/badge/Ver%20demo%20online-ff67cf?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Ver demo online">
+  </a>
+</p>
 
 ---
 
 
-## Características principales
+## ✨ Características principales
 
-- ✅ Nombres sin duplicados.
-- ✅ Sorteo sin repeticiones.
-- ✅ Visualización clara del participante sorteado.
-- ✅ Nombres tachados al ser seleccionados.
-- ✅ Permite agregar con tecla Enter.
+🧩 Nombres sin duplicados<br>
+🔁 Sorteo sin repeticiones<br>
+👀 Visualización clara del participante sorteado<br>
+✍🏻 Nombres tachados al ser seleccionados<br>
+⏎ Permite agregar con tecla Enter
 
+## 👤 Autor
 
-## Autor
+**Alan Febrero Gutierrez - (2MDA)**
 
-Alan Febrero Gutierrez (2MDA).
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/alanfebrerogutierrez/)
-
-
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/alanfebrerogutierrez/" target="_blank">
+    <img src="https://img.shields.io/badge/Ir%20a%20mi%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn de Alan" />
+  </a>
+  <br>
+  <sub>👉🏻 Hacé clic para ver mi perfil 👈🏻</sub>
+</p>
