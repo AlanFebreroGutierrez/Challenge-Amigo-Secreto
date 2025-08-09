@@ -43,19 +43,39 @@
 
 ## 📝 Descripción:
 
-Proyecto web que permite ingresar nombres a una lista para luego hacer un sorteo aleatorio y elegir a un "amigo secreto". Evita nombres duplicados, resalta y tacha los que ya fueron sorteados y solo permite sortear cuando se hayan ingresado al menos dos nombres.
+Proyecto web que permite ingresar nombres a una lista para luego hacer un sorteo aleatorio y elegir a un "amigo secreto".  
+Evita nombres duplicados, resalta y tacha los que ya fueron sorteados y solo permite sortear cuando se hayan ingresado al menos dos nombres.
 
-✍🏻 Agregá nombres (con el botón **Agregar** o con la tecla **Enter**).
-📋 Visualizá los nombres en una lista.
-🎲 Sorteá un participante y mirá el resultado destacado.
-🔁 Repetí el sorteo hasta que no queden más nombres disponibles.
+🖋️ Agregá nombres (con el botón **Agregar** o con la tecla **Enter**).  
+📋 Visualizá los nombres en una lista.  
+🎲 Sorteá un participante y mirá el resultado destacado.  
+✍🏻 Nombres tachados al ser seleccionados.  
+↩️ Repetí el sorteo hasta que no queden más nombres disponibles.
 
 
-## 🌐 Demo Online:
+## ✨ Características principales
 
-**⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️**
+🪪 Nombres sin duplicados  
+🎯 Sorteo sin repeticiones  
+👓 Visualización clara del participante sorteado  
+✍🏻 Nombres tachados al ser seleccionados  
+↩️ Permite agregar con tecla Enter  
 
-<p align="left">
+---
+
+## 🌐 Demo
+
+<p align="center">
+  <span style="font-size:17px; font-weight:600; color:#f5f5f5;">
+    Podes ver mi demo Online haciendo click en el botón <em>"ver demo online"</em>
+  </span>
+</p>
+
+<p align="center">
+⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+</p>
+
+<p align="center">
   <a href="https://alanfebrerogutierrez.github.io/Challenge-Amigo-Secreto/" target="_blank">
     <img src="https://img.shields.io/badge/Ver%20demo%20online-ff67cf?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Ver demo online">
   </a>
@@ -63,23 +83,22 @@ Proyecto web que permite ingresar nombres a una lista para luego hacer un sorteo
 
 ---
 
-
-## ✨ Características principales
-
-🧩 Nombres sin duplicados<br>
-🔁 Sorteo sin repeticiones<br>
-👀 Visualización clara del participante sorteado<br>
-✍🏻 Nombres tachados al ser seleccionados<br>
-⏎ Permite agregar con tecla Enter
-
 ## 👤 Autor
 
 **Alan Febrero Gutierrez - (2MDA)**
 
 <p align="center">
+  <span style="font-size:15px; font-weight:500; color:#f5f5f5;">
+    Podes contactarte conmigo desde mi perfil de LinkedIn
+  </span>
+</p>
+
+<p align="center">
+⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/alanfebrerogutierrez/" target="_blank">
-    <img src="https://img.shields.io/badge/Ir%20a%20mi%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn de Alan" />
+    <img src="https://img.shields.io/badge/Ir%20a%20mi%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <br>
-  <sub>👉🏻 Hacé clic para ver mi perfil 👈🏻</sub>
 </p>
